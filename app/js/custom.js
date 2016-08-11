@@ -133,7 +133,7 @@ SEARCH -->
 /* ---------------------------------------------
 WINDOWS HEIGHT JS -->
  --------------------------------------------- */
-	$(".js-height-full").height($(window).height());
+	$(".js-height-full").height('550px');
 		$(".js-height-parent").each(function(){
 		$(this).height($(this).parent().first().height());
 	});
